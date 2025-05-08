@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер курсов валют</title>
+</head>
+
+<body>
+<form action="" method="post">
+
+    <select name="from">
+        <option value="rur">RUR</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+    </select>
+    <input type="text" name="convertable" value="{{conv}}">
+
+    <input type="submit" value="Конвертировать">
+
+    <select name="to">
+        <option value="rur">RUR</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+    </select>
+    <input type="text" name="converted" value="{{ans}}" readonly>
+
+</form>
+</body>
+</html>
